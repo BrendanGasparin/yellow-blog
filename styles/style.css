@@ -1,0 +1,16 @@
+html {
+  background-color: #ffffdd;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+p, li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
