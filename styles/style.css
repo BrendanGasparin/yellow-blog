@@ -28,6 +28,6 @@ p, li {
 }
 
 img {
-  display: block;
+  display: block;   /* apply block-level behaviour to the image to allow us to set a margin */
   margin: 0 auto;
 }
