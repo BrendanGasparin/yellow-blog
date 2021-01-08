@@ -1,12 +1,4 @@
-//const myHeading = document.querySelector('h1');
-//myHeading.textContent = 'Submit to the Machine!';
-
-// click sensitivity everwhere
-/* document.querySelector('html').onclick = function() {
-    alert('Stop touching me...');
-} */
-
-// logo changer
+// changes logos when user clicks the logo
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -19,3 +11,12 @@ myImage.onclick = function() {
         myImage.setAttribute('src', 'images/b-logo.jpeg');
     }
 }
+
+// changes the heading text to a sinister message
+/*const myHeading = document.querySelector('h1');
+myHeading.textContent = 'Submit to the Machine!';/*
+
+// alerts the user every time they click the html document
+/* document.querySelector('html').onclick = function() {
+    alert('Stop touching me...');
+} */
