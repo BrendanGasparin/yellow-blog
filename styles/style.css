@@ -20,6 +20,10 @@ h1 {
   text-shadow: 3px 3px 1px gray;
 }
 
+h2, h3, h4 {
+  font-family: "Righteous", cursive;
+}
+
 p, li {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
