@@ -24,7 +24,7 @@ h2, h3, h4 {
   font-family: "Righteous", cursive;
 }
 
-p, li {
+p, li, button {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   line-height: 2;
