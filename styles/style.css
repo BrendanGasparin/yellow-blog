@@ -26,10 +26,14 @@ html {
   background-color: #ffff77;
   background-color: var(--body-colour, #ffff77);
   border: 5px solid #000000;
+  text-align: center;
+}
+
+.link-heading {
+  border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .link-item {
-  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   border: 2px solid rgba(0, 0, 0, 0.2);
