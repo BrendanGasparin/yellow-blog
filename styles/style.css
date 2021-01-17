@@ -1,13 +1,21 @@
+root {
+  --bg-colour: #ffffaa;
+  --body-colour: #ffff77;
+  --text-colour: #000000;
+}
+
 html {
   background-color: #ffffaa;
+  background-color: var(--bg-colour, #ffffaa);
 }
 
 body {
   width: 600px;
   margin: 0 auto; /* first value is top and bottom, second value is left and right */
   background-color: #ffff77;
+  background-color: var(--body-colour, #ffff77);
   padding: 0 20px 40px 40px;
-  border: 5px solid black;
+  border: 5px solid #000000;
 }
 
 h1 {
@@ -17,11 +25,19 @@ h1 {
   margin: 0;
   padding: 20px 0;
   color: #000000;
+  color: var(--text-colour, #000000);
   text-shadow: 3px 3px 1px gray;
 }
 
 h2, h3, h4 {
   font-family: "Righteous", cursive;
+  color: #000000;
+  color: var(--text-colour, #000000);
+}
+
+p, li {
+  color: #000000;
+  color: var(--text-colour, #000000);
 }
 
 p, li, button {
