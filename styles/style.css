@@ -9,13 +9,35 @@ html {
   background-color: var(--bg-colour, #ffffaa);
 }
 
-body {
-  width: 600px;
+.blog {
+  width: 44%;
   margin: 0 auto; /* first value is top and bottom, second value is left and right */
   background-color: #ffff77;
   background-color: var(--body-colour, #ffff77);
   padding: 0 20px 40px 40px;
   border: 5px solid #000000;
+}
+
+.link-menu {
+  position: absolute;
+  top: 10px;
+  right: 2%;
+  width: 20%;
+  background-color: #ffff77;
+  background-color: var(--body-colour, #ffff77);
+  border: 5px solid #000000;
+}
+
+.link-item {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.link-item:hover {
+  background-color: #ffff00;
+  border: 2px solid rgba(0, 0, 0, 0.6);
 }
 
 h1 {
@@ -47,9 +69,10 @@ p, li, button {
   letter-spacing: 1px;
 }
 
-img {
+.b-logo {
   display: block;   /* apply block-level behaviour to the image to allow us to set a margin */
   margin: 0 auto;
   border: 5px solid #000000;
   border-radius: 50%;
+  width: 20%;
 }
