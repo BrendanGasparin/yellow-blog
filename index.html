@@ -10,37 +10,55 @@
   </head>
   <body>
     <div class="blog">
-    <h1>Brendan's Homepage</h1>
-    <img src="images/b-logo.jpeg" class="b-logo" alt="A white B logo that changes background when clicked.">
-    <button>Change User</button>
-    <h2>Welcome, guest!</h2>
-    <p>This is Brendan's homepage. It links to free resources on web design.</p>
-    <hr>
-    <h3>2021-01-18</h3>
-    <h4>freeCodeCamp.org</h4>
-    <p><a href="https://freecodecamp.org">freeCodeCamp.org</a> is a great free resource for learning web design. I highly recommend it to anyone who wants to learn web design from scratch, as well as those wanting to refresh or update existing skills.</p>
-    <hr>
-    <h3>2021-01-09</h3>
-    <h4>The Odin Project</h4>
-    <p>Currently I am working through <a href="https://www.theodinproject.com">The Odin Project</a> Foundations module.</p>
-    <p>It teaches:</p>
-    <ul>
-      <li>Linux (including installation, dual-booting, and virtual machines).</li>
-      <li>Git and <a href="https://github.com">Github</a>.</li>
-      <li>Web design (HTML, CSS, JavaScript).</li>
-    </ul>
-    <p><a href="https://www.theodinproject.com">The Odin Project</a> is free, open source, and links to many other valuable resources such as <a href="https://freecodecamp.org">freeCodeCamp</a>. It is ideal for anyone who wants to learn about web design, as well as Linux, virtual machines, Git, and Github.</p>
-    <h4>Building A Website</h4>
-    <p>The first iteration of this page was built after completing about 40% of <a href="https://www.theodinproject.com">The Odin Project</a> Foundations course and then following this <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">tutorial</a> from <a href="https://developer.mozilla.org/">MDN Web Docs</a>. The latter even recommended <a href="https://github.com">Github</a> as a free host for this website.</p>
-    <hr>
-    <p>Follow me on <a href="https://www.twitter.com/BrendanGasparin">Twitter</a>.</p>
-    </div>
+      <header>
+        <h1>Brendan's Homepage</h1>
 
-    <div class="link-menu">
-      <div class="link-heading"><h3>Links</h3></div>
-      <a href="https://www.theodinproject.com"><div class="link-item">The Odin Project</div></a>
-      <a href="https://github.com"><div class="link-item">Github</div></a>
-      <a href="https://freecodecamp.org"><div class="link-item">freeCodeCamp.org</div></a>
+        <nav class="link-menu">
+          <div class="link-heading"><h3>Links</h3></div>
+          <a href="https://www.theodinproject.com"><div class="link-item">The Odin Project</div></a>
+          <a href="https://github.com"><div class="link-item">Github</div></a>
+          <a href="https://freecodecamp.org"><div class="link-item">freeCodeCamp.org</div></a>
+        </nav>
+
+        <a href="https://www.twitter.com/BrendanGasparin"><img src="images/b-logo.jpeg" class="b-logo" alt="A white B logo that changes background when clicked."></a>
+        <button>Change User</button>
+        <h2>Welcome, guest!</h2>
+        <p>This is <a href="https://www.twitter.com/BrendanGasparin">Brendan</a>'s homepage. It links to free resources on web design.</p>
+        <hr>
+      </header>
+      <main>
+        <article>
+          <h3><time date-time="2021-01-18">2021-01-18</time></h3>
+          <section>
+            <h4>freeCodeCamp.org</h4>
+            <p><a href="https://freecodecamp.org">freeCodeCamp.org</a> is a great free resource for learning web design. I highly recommend it to anyone who wants to learn web design from scratch, as well as those wanting to refresh or update existing skills.</p>
+          </section>
+        </article>
+        <hr>
+
+        <article>
+          <section>
+            <h3><time datetime="2021-01-09">2021-01-09</time></h3>
+            <h4>The Odin Project</h4>
+            <p>Currently I am working through <a href="https://www.theodinproject.com">The Odin Project</a> Foundations module.</p>
+            <p>It teaches:</p>
+            <ul>
+              <li>Linux (including installation, dual-booting, and virtual machines).</li>
+              <li>Git and <a href="https://github.com">Github</a>.</li>
+              <li>Web design (HTML, CSS, JavaScript).</li>
+            </ul>
+            <p><a href="https://www.theodinproject.com">The Odin Project</a> is free, open source, and links to many other valuable resources such as <a href="https://freecodecamp.org">freeCodeCamp</a>. It is ideal for anyone who wants to learn about web design, as well as Linux, virtual machines, Git, and Github.</p>
+          </section>
+          <section>
+            <h4>Building A Website</h4>
+            <p>The first iteration of this page was built after completing about 40% of <a href="https://www.theodinproject.com">The Odin Project</a> Foundations course and then following this <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">tutorial</a> from <a href="https://developer.mozilla.org/">MDN Web Docs</a>. The latter even recommended <a href="https://github.com">Github</a> as a free host for this website.</p>
+          </section>
+        </article>
+      </main>
+      <hr>
+      <footer>
+        <p>Follow me on <a href="https://www.twitter.com/BrendanGasparin">Twitter</a>.</p>
+      </footer>
     </div>
 
     <script src="scripts/main.js"></script>
