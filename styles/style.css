@@ -90,6 +90,6 @@ p, li, button {
   display: block;   /* apply block-level behaviour to the image to allow us to set a margin */
   margin: 0 auto;
   border: 5px solid #000000;
-  border-radius: 50%;
+  border-radius: 10%;
   width: 20%;
 }
