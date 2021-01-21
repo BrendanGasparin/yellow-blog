@@ -18,6 +18,17 @@ html {
   border: 5px solid #000000;
 }
 
+.nav-menu {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  width: 20%;
+  background-color: #ffff77;
+  background-color: var(--body-colour, #ffff77);
+  border: 5px solid #000000;
+  text-align: center;
+}
+
 .link-menu {
   position: absolute;
   top: 10px;
