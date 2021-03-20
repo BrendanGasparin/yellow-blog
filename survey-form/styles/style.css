@@ -1,0 +1,46 @@
+body {
+    background-color: lightgray;
+  }
+  
+  #page {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #survey-form {
+    text-align: left;
+    border: 1px solid black;
+    padding: 5%;
+    background-color: yellow;
+  }
+  
+  .form-choice, .checkbox-choice, .button-div {
+    font-size: 1.3em;
+    padding-bottom: 2%;
+    width: 85%;
+    margin: auto;
+  }
+  
+  .checkbox-choice {
+    display: grid;
+  }
+  
+  input[type=text], input[type=email], input[type=number], textarea {
+    width: 100%;
+    margin: auto;
+    line-height: 2em;
+  }
+  
+  select {
+    width: 100%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    border: 1px solid black;
+  }
+  
+  .button-div {
+   text-align: right;
+  }
