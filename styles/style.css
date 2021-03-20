@@ -88,6 +88,10 @@ p, li, button {
   letter-spacing: 1px;
 }
 
+p {
+  text-align: justify;
+}
+
 .b-logo {
   display: block;   /* apply block-level behaviour to the image to allow us to set a margin */
   margin: 0 auto;
