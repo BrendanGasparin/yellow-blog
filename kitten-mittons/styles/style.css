@@ -1,0 +1,111 @@
+:root {
+  --content-width: 40%;
+  --nav-width: 16%;
+  --nav-left: 42%;
+  text-align: center;
+  font-family: "Comic Sans", "Comic Sans MS", sans-serif;
+}
+
+@media (max-width: 800px) {
+  :root {
+    --content-width: 80%;
+    --nav-width: 40%;
+    --nav-left: 30%;
+  }
+}
+
+body {
+  background: green;
+  color: white;
+}
+
+header {
+  position: relative;
+  top: 60px;
+  width: var(--content-width);
+  margin: 0 auto;
+}
+
+main {
+  position: relative;
+  top: 60px;
+  width: var(--content-width);
+  margin: 0 auto;
+}
+
+footer {
+  position: relative;
+  top: 90px;
+  width: var(--content-width);
+  margin: 0 auto;
+}
+
+h1 {
+  color: violet;
+  text-shadow: 0 0 2px black;
+}
+
+strong {
+  font-size: 18px;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  top: 0px;
+  left: var(--nav-left);
+  width: var(--nav-width);
+  text-align: center;
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px 0;
+  z-index: 2;
+}
+
+.nav-item {
+  width: 33%;
+}
+
+/*.rainbow-text {
+  background: linear-gradient(45deg, red, green, blue, red, green, blue, red, green, blue, red, green, blue);
+}*/
+
+.rainbow-text {
+  background: linear-gradient(45deg, red, green, blue, red, green, blue, red, green, blue, red, green, blue);
+  animation-name: colours;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colours {
+  0% {
+    background: linear-gradient(45deg, red, blue, green, red, blue, green, red, blue, green, red, blue, green);
+  }
+  33% {
+    background: linear-gradient(45deg, green, red, blue, green, red, blue, green, red, blue, green, red, blue);
+  }
+  66% {
+    background: linear-gradient(45deg, blue, green, red, blue, green, red, blue, green, red, blue, green, red);
+  }
+  100% {
+    background: linear-gradient(45deg, red, blue, green, red, blue gree, red, blue, green, red, blue, green);
+  }
+}
+
+input[type=email] {
+  width: 80%;
+  margin: auto;
+  line-height: 2em;
+  font-family: "Comic Sans", "Comic Sans MS", sans-serif;
+  }
+
+input[type=submit] {
+  font-family: "Comic Sans", "Comic Sans MS", sans-serif;
+  padding: 5px 5px;
+  margin-top: 10px;
+}
+
+iframe {
+  max-width: 100%;
+}

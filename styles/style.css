@@ -57,6 +57,7 @@ html {
 .link-item:hover {
   background-color: #ffff00;
   border: 2px solid rgba(0, 0, 0, 0.6);
+  transform: scale(1.02);
 }
 
 h1 {
