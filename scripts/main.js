@@ -27,9 +27,22 @@ myHeading.textContent = 'Submit to the Machine!';/*
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h2");
 
+// TUTORIAL: https://www.geeksforgeeks.org/how-to-strip-out-html-tags-from-a-string-using-javascript/
+// regular expression to identify HTML tags in the input string, replacing the identified tag with a null string.
+function removeTags(str)
+{
+  if (str===null || str==="")
+    return "guest";
+  else
+    str = str.toString();
+  
+  return str.replace( /(<([^>]+)>)/ig, '');
+}
+
 function setUserName() {
     let myName = prompt("Enter username:");
     if(!myName) myName = "guest";
+    myName = removeTags(myName);
     localStorage.setItem("name", myName);
     myHeading.textContent = "Welcome, " +myName+ "!";
 }
